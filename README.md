@@ -21,8 +21,3 @@ It uses text preprocessing (tokenization, stopword removal, stemming) and word e
 - LSTM-based model for sequential learning
 - Evaluation using accuracy and adjustable thresholds
 - Early stopping and best model checkpoint saving
-
----
-
-## Project Structure
-
