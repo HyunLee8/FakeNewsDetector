@@ -19,7 +19,7 @@ def build_model(vocab_size, max_length, embedding_dim=embedded_features):
     model.compile(loss='binary_crossentropy', optimizer='adam', metrics=['accuracy'])
     return model
 
-def best_threshold_value(self, model, thresholds:list, X_test, y_test):
+def best_threshold_value(model, thresholds:list, X_test, y_test):
     accuracies = []
     for thresh in thresholds:
         ypred = model.predict(X_test)
