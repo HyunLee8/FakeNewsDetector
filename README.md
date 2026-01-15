@@ -1,11 +1,3 @@
-# LSTM Fake News Detector
-
-A deep learning-based binary classifier that detects fake news articles using Long Short-Term Memory (LSTM) networks with word embeddings.
-
-## Overview
-
-This project implements a recurrent neural network architecture to classify news articles as real or fake. The model leverages sequential text processing through stacked LSTM layers and trained word embeddings to capture semantic patterns indicative of misinformation.
-
 ## Model Architecture
 
 **Network Structure:**
